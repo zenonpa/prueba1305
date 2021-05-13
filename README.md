@@ -1,18 +1,18 @@
 ## Guia de instalación
-#####La instalacion se realizó en Windows con Php 8.0 y MySQL via Xampp
+##### La instalacion se realizó en Windows con Php 8.0 y MySQL via Xampp
 > Uso de Laravel 8, siga la [documentación](https://laravel.com/docs/8.x/installation).
 
-#####Paso 1 - Clonar el repositorio
+##### Paso 1 - Clonar el repositorio
 `$ git clone https://github.com/zenonpa/prueba1305.git`
 
-#####Paso 2 - Instalar las dependencias
+##### Paso 2 - Instalar las dependencias
 `$ cd prueba1305`
 `$ composer install`
 
-#####Paso 3 - Sacar una copia de .ENV file
+##### Paso 3 - Sacar una copia de .ENV file
 `$ copy .env.example .env`
 
-#####Paso 4 - Colocar los datos de conexion a la base de datos en el archivo .ENV
+##### Paso 4 - Colocar los datos de conexion a la base de datos en el archivo .ENV
 		DB_CONNECTION=mysql
 		DB_HOST=127.0.0.1
 		DB_PORT=3306
@@ -21,13 +21,13 @@
 		DB_PASSWORD=
     
 
-#####Paso 5 - Generar el Key del App
+##### Paso 5 - Generar el Key del App
 `$ php artisan key:generate`
 
-#####Paso 6 - Ejecutar las migraciones
+##### Paso 6 - Ejecutar las migraciones
 `$ php artisan migrate`
 
-#####Paso 7 - Ejecutar la aplicación
+##### Paso 7 - Ejecutar la aplicación
 `$ php artisan serve`
 
 ## Caracteristicas Generales
